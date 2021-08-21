@@ -3,8 +3,8 @@
         <div class="col">
             <form action="/admin/login" method="POST">
   <div class="mb-3">
-    <label for="usuario" class="form-label">User</label>
-    <input type="usuario" class="form-control" id="usuario" aria-describedby="emailHelp" name="usuario">
+    <label for="user" class="form-label">User</label>
+    <input type="user" class="form-control" id="user" aria-describedby="emailHelp" name="user">
     
   </div>
   <div class="mb-3">
@@ -15,6 +15,7 @@
   <button type="submit" class="btn btn-primary">Login</button>
 </form>
 {{#if error}}
+<br>
 <p>Datos incorrectos</p>
 {{/if}}
         </div>
